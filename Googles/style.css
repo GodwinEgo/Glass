@@ -1,0 +1,617 @@
+                                body {
+                                    margin: 0em;
+                                    border-top: solid black 10px;
+                                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                }
+                                
+                                .main-div {
+                                    background-color: rgba(244, 238, 238, 0.923);
+                                    padding-bottom: 80px;
+                                }
+                                
+                                .img1 {
+                                    height: 50px;
+                                    margin-top: 2.0em;
+                                    margin-left: 50px;
+                                }
+                                
+                                header {
+                                    display: flex;
+                                    flex-direction: row;
+                                }
+                                
+                                #menu-icon {
+                                    display: none;
+                                }
+                                
+                                #nav-list {
+                                    display: none;
+                                    width: 80%;
+                                    margin-left: 1em;
+                                    flex-direction: column;
+                                    margin-right: 1em;
+                                    height: 40vh;
+                                    position: absolute;
+                                    background-color: black;
+                                    margin-top: 7em;
+                                    z-index: 1300;
+                                    transition: all 700ms ease-in-out;
+                                }
+                                
+                                #nav-list a {
+                                    text-decoration: none;
+                                    color: white;
+                                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                    padding-top: 20px;
+                                    padding-bottom: 15px;
+                                    padding-left: 3%;
+                                }
+                                
+                                #nav-list a:hover {
+                                    color: rgb(173, 105, 236);
+                                }
+                                
+                                .nav-bar {
+                                    display: flex;
+                                    flex-direction: row;
+                                    background-color: white;
+                                    height: 75px;
+                                    margin-top: 2em;
+                                    margin-left: 50vh;
+                                    border-radius: 80px;
+                                    width: 100vh;
+                                }
+                                
+                                .nav-bar a {
+                                    text-decoration: none;
+                                    color: black;
+                                    padding: 2vh;
+                                    align-content: center;
+                                    padding-top: 30px;
+                                    padding-left: 6vh;
+                                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                }
+                                
+                                .nav-bar a:hover {
+                                    color: rgb(173, 105, 236);
+                                }
+                                
+                                .but1 {
+                                    width: 13vh;
+                                    background-color: rgb(173, 105, 236);
+                                    color: white;
+                                    height: 4.8vh;
+                                    border-style: none;
+                                    margin-top: -1em;
+                                    transition: 650ms ease-in-out;
+                                    border-radius: 2em;
+                                }
+                                
+                                .but1:hover {
+                                    background-color: black;
+                                    color: white;
+                                }
+                                
+                                main {
+                                    margin-left: 40px;
+                                    margin-right: 40px;
+                                }
+                                
+                                .contain {
+                                    font-family: fantasy;
+                                    text-align: center;
+                                    justify-content: space-between;
+                                    margin-top: 20vh;
+                                }
+                                
+                                .text {
+                                    font-size: 60px;
+                                    color: rgb(173, 105, 236);
+                                }
+                                
+                                .sun {
+                                    font-size: 70px;
+                                    font-weight: 700;
+                                    padding-top: 10px;
+                                }
+                                
+                                .shop {
+                                    width: 29vh;
+                                    align-self: center;
+                                    height: 9vh;
+                                    margin-left: 80vh;
+                                    border-radius: 50px;
+                                    border-style: solid;
+                                    border-color: black;
+                                    font-size: 14px;
+                                    transition: 700ms ease-in-out;
+                                }
+                                
+                                .shop:hover {
+                                    background-color: rgb(173, 105, 236);
+                                    color: white;
+                                }
+                                
+                                .read {
+                                    width: 29vh;
+                                    align-self: center;
+                                    height: 9vh;
+                                    margin-left: 80vh;
+                                    border-radius: 50px;
+                                    border-style: solid;
+                                    border-color: black;
+                                    font-size: 14px;
+                                    background-color: white;
+                                    margin-top: 4vh;
+                                    transition: 700ms ease-in-out;
+                                }
+                                
+                                .read:hover {
+                                    background-color: rgb(173, 105, 236);
+                                    color: white;
+                                }
+                                
+                                .about-image {
+                                    height: 500px;
+                                    width: 550px;
+                                    margin-left: 20vh;
+                                }
+                                
+                                #div1 {
+                                    display: flex;
+                                    flex-direction: column;
+                                    padding-bottom: 50px;
+                                }
+                                
+                                .div2 {
+                                    display: flex;
+                                    flex-direction: row;
+                                    padding-top: 20vh;
+                                    margin: 50px;
+                                }
+                                
+                                .bout {
+                                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                    text-align: center;
+                                    font-size: 30px;
+                                }
+                                
+                                #card1 {
+                                    width: 65vh;
+                                    height: 40vh;
+                                    border-style: solid;
+                                    border-width: 1px;
+                                    box-shadow: rgb(173, 105, 236);
+                                    border-color: black;
+                                    box-sizing: border-box;
+                                    padding: 40px;
+                                    font-family: fantasy;
+                                    padding-top: 2vh;
+                                    margin-left: 14vh;
+                                    margin-top: 7vh;
+                                }
+                                
+                                .courasel {
+                                    padding-top: 10vh;
+                                }
+                                
+                                .lorem {
+                                    text-decoration: none;
+                                    font-family: fantasy;
+                                    font-size: 19px;
+                                    color: gray;
+                                }
+                                
+                                .nav-img {
+                                    margin: 40px;
+                                }
+                                
+                                .glass-image {
+                                    border-style: solid;
+                                    border-width: 1px;
+                                    width: 30%;
+                                    height: 35vh;
+                                    margin-left: 7vh;
+                                    padding-top: 12vh;
+                                }
+                                
+                                .glass-image p {
+                                    padding-top: 12vh;
+                                    font-family: fantasy;
+                                    font-weight: bold;
+                                }
+                                
+                                .image-div {
+                                    display: flex;
+                                    flex-direction: column;
+                                    padding-top: 4vh;
+                                    padding-bottom: 6vh;
+                                }
+                                
+                                .nav-img {
+                                    display: flex;
+                                    flex-direction: row;
+                                }
+                                
+                                .div3 {
+                                    display: flex;
+                                    flex-direction: row;
+                                }
+                                
+                                .glass-span {
+                                    width: 60%;
+                                    text-align: left;
+                                    background-color: black;
+                                    color: white;
+                                }
+                                
+                                .glass-span p {
+                                    padding-top: 30px;
+                                    padding-bottom: 30px;
+                                    padding-left: 100px;
+                                    padding-right: 100px;
+                                }
+                                
+                                .best {
+                                    text-align: center;
+                                    font-size: 30px;
+                                    padding: 10px;
+                                }
+                                
+                                .shopify {
+                                    width: 29vh;
+                                    align-self: center;
+                                    height: 9vh;
+                                    border-radius: 50px;
+                                    border-style: solid;
+                                    border-color: white;
+                                    font-size: 14px;
+                                    background-color: black;
+                                    color: white;
+                                    margin-top: 3vh;
+                                    margin-top: 4vh;
+                                    margin-left: 100px;
+                                    transition: 700ms ease-in-out;
+                                }
+                                
+                                .shopify:hover {
+                                    background-color: rgb(173, 105, 236);
+                                    color: white;
+                                }
+                                
+                                .div4 {
+                                    margin-top: 14vh;
+                                    text-align: center;
+                                    font-family: 'Times New Roman', Times, serif;
+                                    padding-bottom: 10vh;
+                                }
+                                
+                                .div4 p {
+                                    font-family: 'Times New Roman', Times, serif;
+                                    color: gray;
+                                    padding-bottom: 30vh;
+                                }
+                                
+                                .card2 {
+                                    width: 120vh;
+                                    height: 40vh;
+                                    border-style: solid;
+                                    border-width: 1px;
+                                    box-shadow: rgb(173, 105, 236);
+                                    border-color: black;
+                                    box-sizing: border-box;
+                                    padding: 100px;
+                                    font-family: fantasy;
+                                    padding-top: 9vh;
+                                    margin-left: 40vh;
+                                    margin-top: 7vh;
+                                    align-content: center;
+                                }
+                                
+                                .ehile {
+                                    padding-left: 3vh;
+                                }
+                                
+                                .article {
+                                    display: flex;
+                                    flex-direction: row;
+                                }
+                                
+                                .contactbox {
+                                    margin-left: 40vh;
+                                    color: gray;
+                                    padding-bottom: 30vh;
+                                    font-family: 'Times New Roman', Times, serif;
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 3vh;
+                                    margin-top: 10vh;
+                                }
+                                
+                                .contactbox label {
+                                    font-size: 20px;
+                                }
+                                
+                                .contactbox input {
+                                    width: 50vh;
+                                    border-style: none;
+                                    border-bottom: solid 1px;
+                                    background-color: white;
+                                    outline: none;
+                                    font-size: 15px;
+                                    color: gray;
+                                }
+                                
+                                textarea {
+                                    width: 50vh;
+                                }
+                                
+                                .button {
+                                    width: 50vh;
+                                    height: 7vh;
+                                    background-color: rgb(173, 105, 236);
+                                    color: white;
+                                    border-style: none;
+                                    font-size: 15px;
+                                    border-radius: 40px;
+                                    border: 1px;
+                                    transition: 700ms ease-in-out;
+                                }
+                                
+                                .button:hover {
+                                    background-color: gray;
+                                }
+                                
+                                footer {
+                                    display: flex;
+                                    flex-direction: column;
+                                    font-family: 'Times New Roman', Times, serif;
+                                    font-size: 20pxpx;
+                                }
+                                
+                                .information {
+                                    background-color: rgb(49, 46, 46);
+                                    color: white;
+                                    display: flex;
+                                    flex-direction: row;
+                                    padding-left: 60vh;
+                                    height: 20vh;
+                                    gap: 15vh;
+                                }
+                                
+                                .information p {
+                                    margin-top: 10vh;
+                                }
+                                
+                                .reserved {
+                                    padding-left: 60vh;
+                                    height: 9vh;
+                                    padding-top: 4vh;
+                                    font-size: 25px;
+                                }
+                                /*Responsive*/
+                                
+                                @media (min-width: 300px) and (max-width: 1300px) {
+                                    body {
+                                        margin: 0em;
+                                        width: 100%;
+                                    }
+                                    header a,
+                                    header nav {
+                                        float: none;
+                                        text-align: center;
+                                        width: 100%;
+                                    }
+                                    .nav-bar {
+                                        display: none;
+                                    }
+                                    #menu-icon {
+                                        display: block;
+                                        margin-top: 1em;
+                                        margin-left: 40%;
+                                        margin-right: 20px;
+                                        margin-top: 1.8em;
+                                        cursor: pointer;
+                                    }
+                                    #nav-list {
+                                        display: none;
+                                    }
+                                    .img1 {
+                                        height: 50px;
+                                        margin-top: 1.0em;
+                                        margin-left: 1%;
+                                        flex: 2;
+                                    }
+                                    main {
+                                        margin-left: 10px;
+                                        margin-right: 10px;
+                                    }
+                                    .contain {
+                                        font-family: fantasy;
+                                        text-align: center;
+                                        justify-content: space-between;
+                                        margin-top: 10vh;
+                                    }
+                                    .text {
+                                        font-size: 30px;
+                                        color: rgb(173, 105, 236);
+                                    }
+                                    .sun {
+                                        font-size: 35px;
+                                        font-weight: 700;
+                                        padding-top: 10px;
+                                    }
+                                    .icon {
+                                        display: none;
+                                    }
+                                    .banner {
+                                        width: 100%;
+                                        height: 100%;
+                                        padding-top: 20%;
+                                    }
+                                    .shop {
+                                        width: 29vh;
+                                        align-self: center;
+                                        height: 9vh;
+                                        margin-top: 3vh;
+                                        margin-left: 30%;
+                                        border-radius: 50px;
+                                        border-style: solid;
+                                        border-color: black;
+                                        font-size: 14px;
+                                        transition: 700ms ease-in-out;
+                                    }
+                                    .read {
+                                        width: 29vh;
+                                        align-self: center;
+                                        height: 9vh;
+                                        margin-left: 30%;
+                                        border-radius: 50px;
+                                        border-style: solid;
+                                        border-color: black;
+                                        font-size: 14px;
+                                        background-color: white;
+                                        margin-top: 4vh;
+                                        transition: 700ms ease-in-out;
+                                    }
+                                    .div2 {
+                                        display: flex;
+                                        flex-direction: column;
+                                        padding-top: 10vh;
+                                    }
+                                    .bout {
+                                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                        text-align: center;
+                                        font-size: 15px;
+                                    }
+                                    #card1 {
+                                        width: 100%;
+                                        height: 100%;
+                                        border-style: solid;
+                                        border-width: 1px;
+                                        box-shadow: rgb(173, 105, 236);
+                                        border-color: black;
+                                        box-sizing: border-box;
+                                        padding: 40px;
+                                        font-family: fantasy;
+                                        padding-top: 2vh;
+                                        margin-left: 2%;
+                                        margin-top: 7vh;
+                                    }
+                                    .about-image {
+                                        height: 100%;
+                                        width: 100%;
+                                        margin-left: 2%;
+                                    }
+                                    .courasel {
+                                        padding-top: 5vh;
+                                    }
+                                    .nav-img {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: space-between;
+                                        gap: 5vh;
+                                    }
+                                    .glass-image {
+                                        border-style: solid;
+                                        border-width: 1px;
+                                        width: 100%;
+                                        height: 100%;
+                                        margin-left: 2%;
+                                        justify-self: center;
+                                        align-self: center;
+                                    }
+                                    .glass-image p {
+                                        padding-top: 12vh;
+                                        font-family: fantasy;
+                                        font-weight: bold;
+                                    }
+                                    .div3 {
+                                        display: flex;
+                                        flex-direction: column;
+                                    }
+                                    .glass-span {
+                                        width: 100%;
+                                        height: 100%;
+                                        text-align: left;
+                                        background-color: black;
+                                        color: white;
+                                    }
+                                    .glass-span p {
+                                        padding-top: 2%;
+                                        padding-bottom: 2%;
+                                        padding-left: 5%;
+                                        padding-right: 5%;
+                                    }
+                                    .shop-img {
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                    .shopify {
+                                        width: 29vh;
+                                        align-self: center;
+                                        height: 9vh;
+                                        margin-top: 3vh;
+                                        margin-bottom: 3vh;
+                                        margin-left: 30%;
+                                        border-radius: 50px;
+                                        border-style: solid;
+                                        font-size: 14px;
+                                        transition: 700ms ease-in-out;
+                                    }
+                                    .card2 {
+                                        width: 100%;
+                                        height: 100%;
+                                        border-style: solid;
+                                        border-width: 1px;
+                                        box-shadow: rgb(173, 105, 236);
+                                        border-color: black;
+                                        box-sizing: border-box;
+                                        padding: 20px;
+                                        font-family: fantasy;
+                                        padding-top: 4vh;
+                                        margin-left: 2%;
+                                        margin-right: 2%;
+                                        margin-top: 7vh;
+                                        align-content: center;
+                                    }
+                                    .contactbox {
+                                        margin-left: 2%;
+                                        margin-right: 2%;
+                                        color: gray;
+                                        padding-bottom: 30vh;
+                                        font-family: 'Times New Roman', Times, serif;
+                                        display: flex;
+                                        flex-direction: column;
+                                        gap: 3vh;
+                                        margin-top: 5vh;
+                                    }
+                                    footer {
+                                        width: 100%;
+                                    }
+                                    .information {
+                                        background-color: rgb(49, 46, 46);
+                                        color: white;
+                                        display: flex;
+                                        flex-direction: row;
+                                        padding-left: 0%;
+                                        height: 100%;
+                                        width: 100%;
+                                        gap: 2%;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    .information p {
+                                        margin-top: 5vh;
+                                    }
+                                    .reserved {
+                                        height: 9vh;
+                                        padding-top: 2vh;
+                                        font-size: 15px;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    .reserved p {
+                                        padding-left: 10%;
+                                    }
+                                }

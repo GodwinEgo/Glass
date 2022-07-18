@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="main-div">
+        <!--Header-->
+        <header>
+            <div class="img1"><img src="logo.png"></div>
+            <nav class="nav-bar">
+                <a class="bar" href="index.html">Home</a>
+                <a class="bar" href="#">About</a>
+                <a class="bar" href="#">Our Glasses</a>
+                <a class="bar" href="#">Shop</a>
+                <a href="#"><button class="but1">Login</button></a>
+                <a class="bar" href="#">Register</a>
+            </nav>
+            <nav id="nav-list">
+                <a class="bar" href="index.html">Home</a>
+                <a class="bar" href="about.html">About</a>
+                <a class="bar" href="ourglasses.html">Our Glasses</a>
+                <a class="bar" href="shop.html">Shop</a>
+                <a class="bar" href="#">Contact Us</a>
+            </nav>
+
+            <img src="menu_icon.png" id="menu-icon" color="white" alt="" height="22px" width="30px" align="left" onclick="show()" ondblclick="hide()">
+        </header>
+        <div id="div1">
+            <div class="div2">
+                <img src="about_img.png" alt="" class="about-image">
+                <article id="card1">
+                    <h2 class="bout">About Our Shop</h2>
+                    <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel magnam adipisci itaque neque enim, nostrum aperiam accusantium placeat nis Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi id, voluptates officiis, sunt
+                    quod nisi commodi quos ex consequuntur aut minus. Mollitia, corrupti ipsa maxime ipsam accusantium harum dolor assumenda. tempora ipsum maiores reiciendis tempore, rerum saepe laudantium quas illum voluptates.
+                </article>
+            </div>
+            <div><button class="read">Read More</button></div>
+        </div>
+
+        <footer>
+            <div class="information">
+                <p>Location</p>
+                <p>(234)8101215372</p>
+                <p>godwinehile04@gmail.com</p>
+            </div>
+            <div class="reserved">
+                <p>© 2022 All Rights Reserved. Design by Godwin_Ego</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+        <style>
+            .main-div {
+                height: 10vh;
+                background-color: rgb(189, 137, 237);
+            }
+            
+            @media (min-width: 300px) and (max-width: 1300px) {
+                .main-div {
+                    background-color: rgba(244, 238, 238, 0.923);
+                }
+            }
+        </style>
+</body>
+
+</html>

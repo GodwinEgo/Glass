@@ -7,24 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!--Styling-->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
+
     <div class="main-div">
         <!--Header-->
         <header>
-            <a href="index.html"><img class="img1" src="images/logo.png"></a>
+            <div class="img1"><img src="logo.png"></div>
             <nav class="nav-bar">
                 <a class="bar" href="index.html">Home</a>
-                <a class="bar" href="#">About</a>
-                <a class="bar" href="#">Our Glasses</a>
-                <a class="bar" href="#">Shop</a>
+                <a class="bar" href="about.html">About</a>
+                <a class="bar" href="ourglasses.html">Our Glasses</a>
+                <a class="bar" href="shop.html">Shop</a>
                 <a href="#"><button class="but1">Login</button></a>
                 <a class="bar" href="#">Register</a>
             </nav>
-            <a href=""><img src="/images/menu_icon.png" alt="" class="menu-icon" height="30px" width="30px" align="left"></a>
+            <nav id="nav-list">
+                <a class="bar" href="index.html">Home</a>
+                <a class="bar" href="about.html">About</a>
+                <a class="bar" href="ourglasses.html">Our Glasses</a>
+                <a class="bar" href="shop.html">Shop</a>
+                <a class="bar" href="#">Contact Us</a>
+            </nav>
+            <img src="menu_icon.png" id="menu-icon" alt="" height="22px" width="30px" align="left" onclick="show()" ondblclick="hide()">
         </header>
 
         <!--Main-->
@@ -37,9 +45,9 @@
                     TO OUR SUNGLASSES
                 </div>
                 <div class="images">
-                    <a href="index.html"> <img src="images/icons8-back-to-64.png" alt="" align="left"></a>
-                    <img src="images/banner_img.png" alt="" align="center">
-                    <a href="index.html"><img src="images/icons8-next-page-64.png" alt="" align="right"></a>
+                    <a href="index.html"> <img src="icons8-back-to-64.png" alt="" align="left" class="icon"></a>
+                    <img src="banner_img.png" class="banner" alt="" align="center">
+                    <a href="index.html"><img src="icons8-next-page-64.png" alt="" align="right" class="icon"></a>
                 </div>
             </div>
             <button class="shop" align="center">Shop Now</button>
@@ -49,7 +57,7 @@
     <!--Shop-->
     <div id="div1">
         <div class="div2">
-            <img src="images/about_img.png" alt="" class="about-image">
+            <img src="about_img.png" alt="" class="about-image">
             <article id="card1">
                 <h2 class="bout">About Our Shop</h2>
                 <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel magnam adipisci itaque neque enim, nostrum aperiam accusantium placeat nis Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi id, voluptates officiis, sunt quod
@@ -67,37 +75,37 @@
     <div class="image-div">
         <nav class="nav-img">
             <div class="glass-image">
-                <img src="images/glass1.png" alt="">
+                <img src="glass1.png" alt="">
                 <p align="center"><span>$</span>50<br>Sunglasses</p>
             </div>
             <div class="glass-image">
-                <img src="images/glass2.png" alt="">
+                <img src="glass2.png" alt="">
                 <p align="center"><span>$</span>50<br>Sunglasses</p>
             </div>
             <div class="glass-image">
-                <img src="images/glass3.png" alt="">
+                <img src="glass3.png" alt="">
                 <p align="center"><span>$</span>50<br>Sunglasses</p>
             </div>
             <div class="glass-image">
-                <img src="images/glass4.png" alt="">
+                <img src="glass4.png" alt="">
                 <p align="center"><span>$</span>50<br>Sunglasses</p>
             </div>
         </nav>
         <nav class="nav-img">
             <div class="glass-image">
-                <img src="images/glass5.png" alt="">
+                <img src="glass5.png" alt="">
                 <p align="center"><span>$</span>50<br>Sunglasses</p>
             </div>
             <div class="glass-image">
-                <img src="images/glass6.png" alt="">
+                <img src="glass6.png" alt="">
                 <p align="center"><span>$</span>50<br>Sunglasses</p>
             </div>
             <div class="glass-image">
-                <img src="images/glass7.png" alt="">
+                <img src="glass7.png" alt="">
                 <p align="center"><span>$</span>50<br>Sunglasses</p>
             </div>
             <div class="glass-image">
-                <img src="images/glass8.png" alt="">
+                <img src="glass8.png" alt="">
                 <p align="center"><span>$</span>50<br>Sunglasses</p>
             </div>
         </nav>
@@ -108,7 +116,7 @@
     </div>
 
     <div class="div3">
-        <img src="images/shop_img.png" alt="" height="600px" width="40%">
+        <img src="shop_img.png" alt="" class="shop-img" height="600px" width="40%">
         <span class="glass-span">
             <h2 class="best">Best Glasses In Our Shop</h2>
             <br> 
@@ -165,6 +173,7 @@
             <p>© 2022 All Rights Reserved. Design by Godwin_Ego</p>
         </div>
     </footer>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
